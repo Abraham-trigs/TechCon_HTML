@@ -1,2 +1,44 @@
-<link href="base.css" rel="stylesheet">
-<link href="styles.css" rel="stylesheet">
+body, .main {
+    display: flex;
+}
+body {
+    flex-direction: column;
+}
+.main {
+    flex-direction: row;
+    flex:auto
+    text-color
+    
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+    color: rgb(0, 0, 0);
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+    
+}
+aside:hover {
+    background-color: rgb(234, 234, 234)
+}
+.welcome {
+    text-align: center;
+}
+.welcome :hover {
+    font-size: larger;
+    color: rgb(0, 0, 144);
+}
+.intro, .origin {
+    color: rgb(106, 25, 182)
+}
+.mobile :hover {
+    opacity: 0.7;
+}
+.intro:hover {
+    background-color:rgb(234, 234, 234)
+}
+.origin:hover {
+    background-color: rgb(234, 234, 234)
+}
